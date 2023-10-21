@@ -62,7 +62,7 @@ holdButtonElem.addEventListener('click', ()=>{
         score0Elem.textContent = player0_score;
         player0_current = 0;
         current0Elem.textContent = player0_current;
-        if(player0_score>=10){
+        if(player0_score>=100){
             holdButtonElem.disabled = true;
             rollButtonElem.disabled = true;
             player0.classList.add("player--winner");
@@ -72,7 +72,7 @@ holdButtonElem.addEventListener('click', ()=>{
         score1Elem.textContent = player1_score;
         player1_current = 0;
         current1Elem.textContent = player1_current;
-        if(player1_score>=10){
+        if(player1_score>=100){
             holdButtonElem.disabled = true;
             rollButtonElem.disabled = true;
             player1.classList.add("player--winner");
